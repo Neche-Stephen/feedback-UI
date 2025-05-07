@@ -8,11 +8,14 @@ import Support from '../components/home/Support';
 import KeepEveryone from '../components/home/KeepEveryone';
 import Visibility from '../components/home/Visibility';
 import Footer from '../components/home/Footer';
+import Hero from '../components/home/Hero';
+import Partners from '../components/home/Partners';
 
 export default function Home() {
   return (
     <div>
-
+      <Hero />
+      <Partners />
       <About />
       <Works />
       <BetterFeedback />

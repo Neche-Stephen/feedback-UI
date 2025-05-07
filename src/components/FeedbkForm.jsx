@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { MessageSquare, Menu, X, CheckCircle, AlertTriangle } from "lucide-react";
 
 export default function FeedbkForm({ extensionData, onSubmit }) {
-  console.log("Extension Data:", extensionData);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {

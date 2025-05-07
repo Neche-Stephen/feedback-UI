@@ -1,0 +1,21 @@
+
+@media (max-height: 790px) {
+  .hero_logos {
+    display: none;
+  }
+}
+
+.hero{
+    min-height: 100vh;
+}
+
+@media (max-width:1023px) or (min-width:1458px) or (max-height: 790px) {
+    .hero{
+      min-height: unset;
+  
+    }
+
+    .hero_logos {
+        display: none;
+      }
+  }
