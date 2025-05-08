@@ -14,7 +14,7 @@ export default function About() {
             For Extension Developers
           </h1>
           
-          <div className="space-y-4">
+          <div className="space-y-2">
             <div>
               <p className="font-medium text-gray-700">Identify Pain Points:</p>
               <p className="text-gray-600">Discover why users uninstall your extensions</p>

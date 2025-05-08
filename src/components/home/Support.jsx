@@ -3,14 +3,14 @@ import React from 'react';
 export default function Support() {
   // Companies data array - in a real implementation you'd replace these with actual logo URLs
   const companies = [
-    { name: "Crowdstrike", placeholder: "/api/placeholder/180/60", className: "h-8" },
-    { name: "Airbus", placeholder: "/api/placeholder/180/60", className: "h-8" },
-    { name: "Hays", placeholder: "/api/placeholder/180/60", className: "h-8" },
-    { name: "Sentry", placeholder: "/api/placeholder/180/60", className: "h-8" },
-    { name: "MedWing", placeholder: "/api/placeholder/180/60", className: "h-6" },
-    { name: "Cathay Pacific", placeholder: "/api/placeholder/180/60", className: "h-7" },
-    { name: "Liquid Web", placeholder: "/api/placeholder/180/60", className: "h-7" },
-    { name: "AutoTrader", placeholder: "/api/placeholder/180/60", className: "h-7" },
+    { name: "Crowdstrike", placeholder: "./assets/home/support/crowdstrike.png", className: "h-8" },
+    { name: "Airbus", placeholder: "./assets/home/support/airbus.png", className: "h-8" },
+    { name: "Hays", placeholder: "./assets/home/support/hays.png", className: "h-8" },
+    { name: "Sentry", placeholder: "./assets/home/support/sentry.png", className: "h-8" },
+    { name: "MedWing", placeholder: "./assets/home/support/medwing.png", className: "h-6" },
+    { name: "Cathay Pacific", placeholder: "./assets/home/support/cathay.png", className: "h-7" },
+    { name: "Liquid Web", placeholder: "./assets/home/support/liquidweb.png", className: "h-7" },
+    { name: "AutoTrader", placeholder: "./assets/home/support/autotrader.png", className: "h-7" },
   ];
 
   return (
@@ -23,12 +23,12 @@ export default function Support() {
         {companies.map((company, index) => (
           <div 
             key={index} 
-            className="bg-gray-50 rounded-xl p-6 flex items-center justify-center"
+            className=""
           >
             <img 
               src={company.placeholder} 
               alt={`${company.name} logo`} 
-              className={company.className}
+              // className={company.className}
             />
           </div>
         ))}

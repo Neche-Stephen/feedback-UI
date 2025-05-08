@@ -5,7 +5,7 @@ export default function KeepEveryone() {
     <div className="w-full bg-blue-900 py-16 md:py-24">
       <div className="max-w-4xl mx-auto px-4 text-center">
         {/* Heading and text section */}
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+        <h1 className="text-4xl md:text-5xl font-semibold text-white mb-6">
           Keep every one in the loop
         </h1>
         
@@ -24,9 +24,9 @@ export default function KeepEveryone() {
         {/* Dashboard Image Placeholder */}
         <div className="w-full max-w-5xl mx-auto">
           <img 
-            src="/api/placeholder/1100/500" 
+            src="./assets/home/feedback/dashboard.png"
             alt="Dashboard preview" 
-            className="w-full h-auto rounded-md shadow-lg"
+            className="w-full h-auto"
           />
         </div>
       </div>

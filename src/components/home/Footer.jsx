@@ -4,16 +4,11 @@ export default function Footer() {
   return (
     <footer className="bg-blue-950 text-white py-16 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
           {/* Logo Section */}
           <div className="md:col-span-1">
             <div className="flex items-center">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
-                <rect width="40" height="40" rx="20" fill="white" />
-                <path d="M28 20C28 24.4183 24.4183 28 20 28C15.5817 28 12 24.4183 12 20C12 15.5817 15.5817 12 20 12C24.4183 12 28 15.5817 28 20Z" stroke="#00C2A8" strokeWidth="2" />
-                <path d="M24 20H18V16" stroke="#00C2A8" strokeWidth="2" strokeLinecap="round" />
-              </svg>
-              <span className="text-xl font-bold">Feedbk</span>
+              <img src="./assets/home/footer/footer-icon.png" alt="" />
             </div>
           </div>
           

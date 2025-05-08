@@ -20,12 +20,8 @@ export default function Testimonial() {
           </p>
           
           <div className="flex items-center mt-auto">
-            <div className="w-12 h-12 rounded-full bg-pink-100 overflow-hidden">
-              <img 
-                src="/api/placeholder/48/48" 
-                alt="Gabriel Valdivia" 
-                className="w-full h-full object-cover"
-              />
+            <div className="w-12 h-12 overflow-hidden">
+              <img src="./assets/home/testimonial/gabriel.png" alt=""  className="w-full h-full object-cover"/>
             </div>
             <div className="ml-4">
               <h4 className="font-medium text-gray-900">Gabriel Valdivia</h4>
@@ -55,9 +51,9 @@ export default function Testimonial() {
           </p>
           
           <div className="flex items-center mt-auto">
-            <div className="w-12 h-12 rounded-full overflow-hidden">
+            <div className="w-12 h-12  overflow-hidden">
               <img 
-                src="/api/placeholder/48/48" 
+               src="./assets/home/testimonial/usborne.png" 
                 alt="Buzz Usborne" 
                 className="w-full h-full object-cover"
               />
