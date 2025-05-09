@@ -10,9 +10,7 @@ export default function FeedbkForm({ extensionData, onSubmit }) {
 
   const [formData, setFormData] = useState({
     issues: [],
-    issueLocation: "",
     additionalDetails: "",
-    email: "",
   });
 
   const [progress, setProgress] = useState(0);
@@ -81,9 +79,7 @@ export default function FeedbkForm({ extensionData, onSubmit }) {
     // Clear form fields
     setFormData({
       issues: [],
-      issueLocation: '',
       additionalDetails: '',
-      email: ''
     });
       
     
