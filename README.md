@@ -46,7 +46,7 @@ http://localhost:5173/?id=<extension_id>&name=<extension_name>
 
 For example:
 ```
-http://localhost:5173/?id=aaaabkbhklmpmlnjnbicdahijpkgnkfk&name=tdo
+http://localhost:5173/form/?id=aaaabkbhklmpmlnjnbicdahijpkgnkfk&name=tdo
 ```
 
 These parameters are used to:
