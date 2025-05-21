@@ -1,66 +1,67 @@
-import React from 'react';
+import React from "react";
 
 export default function Testimonial() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        {/* Left Testimonial */}
-        <div className="flex flex-col">
-          <div className="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-            <div className="w-8 h-8 bg-blue-600 rounded transform rotate-12"></div>
-          </div>
-          
-          <p className="text-gray-800 text-lg mb-6">
-            Cloudhub has emerged as an essential asset for the team at 
-            Patreon design. Amidst an accelerated expanding 
-            organization in which the product undergoes rapid changes, 
-            Campsite enables us to maintain visibility on what's 
-            transpiring across various teams — impeccably aligning with 
-            our pre-existing procedures.
-          </p>
-          
-          <div className="flex items-center mt-auto">
-            <div className="w-12 h-12 overflow-hidden">
-              <img src="./assets/home/testimonial/gabriel.png" alt=""  className="w-full h-full object-cover"/>
-            </div>
-            <div className="ml-4">
-              <h4 className="font-medium text-gray-900">Gabriel Valdivia</h4>
-              <p className="text-gray-500 text-sm">Principal Product Designer, Patreon</p>
-            </div>
-          </div>
-        </div>
-        
-        {/* Right Testimonial */}
-        <div className="flex flex-col">
-          <div className="w-14 h-14 bg-gray-900 rounded-lg flex items-center justify-center mb-6">
-            <div className="text-white">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2L14.4 9.20001H22L16 14L18 22L12 17.2L6 22L8 14L2 9.20001H9.6L12 2Z" fill="white"/>
-              </svg>
+    <div className="bg-[#F9FAFB]">
+      <div className="max-w-[1112px] mx-auto px-12 xl:px-0 pt-[131px] pb-[60px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {/* Left Testimonial */}
+          <div className="flex flex-col">
+            <img className="w-14 h-14 mb-[25px]" src="./assets/home/testimonial/testimonial-icon1.svg" alt="" />
+
+            <p className="text-[#171717] text-lg mb-8 leading-[30px] font-normal">
+              Cloudhub has emerged as an essential asset for the team at Patreon
+              design. Amidst an accelerated expanding organization in which the
+              product undergoes rapid changes, Campsite enables us to maintain
+              visibility on what's transpiring across various teams — impeccably
+              aligning with our pre-existing procedures.
+            </p>
+
+            <div className="flex items-center mt-auto">
+              <div className="w-12 h-12 overflow-hidden">
+                <img
+                  src="./assets/home/testimonial/gabriel.png"
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="ml-4">
+                <h4 className="font-semibold text-[#171717] text-[16px] leading-[26px]">Gabriel Valdivia</h4>
+                <p className="text-[#737373] text-sm font-normal leading-[22px]">
+                  Principal Product Designer, Patreon
+                </p>
+              </div>
             </div>
           </div>
-          
-          <p className="text-gray-800 text-lg mb-6">
-            Cloudhub has demonstrated exceptional worth in preserving 
-            open communication among designers regarding their current 
-            endeavors, a challenge that previously impeded our progress. It 
-            continually stands as a distinctive platform guiding our dialogue 
-            towards imagination and consistent review, an element I highly 
-            value. Moreover, it has accelerated our propensity for early-
-            stage feedback beyond my expectations.
-          </p>
-          
-          <div className="flex items-center mt-auto">
-            <div className="w-12 h-12  overflow-hidden">
-              <img 
-               src="./assets/home/testimonial/usborne.png" 
-                alt="Buzz Usborne" 
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="ml-4">
-              <h4 className="font-medium text-gray-900">Buzz Usborne</h4>
-              <p className="text-gray-500 text-sm">Principal Designer, Buildkite</p>
+
+          {/* Right Testimonial */}
+          <div className="flex flex-col">
+          <img className="w-14 h-14 mb-[25px]" src="./assets/home/testimonial/testimonial-icon2.svg" alt="" />
+
+            <p className="text-[#171717] text-lg mb-8 leading-[30px] font-normal">
+              Cloudhub has demonstrated exceptional worth in preserving open
+              communication among designers regarding their current endeavors, a
+              challenge that previously impeded our progress. It continually
+              stands as a distinctive platform guiding our dialogue towards
+              imagination and consistent review, an element I highly value.
+              Moreover, it has accelerated our propensity for early- stage
+              feedback beyond my expectations.
+            </p>
+
+            <div className="flex items-center mt-auto">
+              <div className="w-12 h-12  overflow-hidden">
+                <img
+                  src="./assets/home/testimonial/usborne.png"
+                  alt="Buzz Usborne"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="ml-4">
+                <h4 className="font-semibold text-[#171717] text-[16px] leading-[26px]">Buzz Usborne</h4>
+                <p className="text-[#737373] text-sm font-normal leading-[22px]">
+                  Principal Designer, Buildkite
+                </p>
+              </div>
             </div>
           </div>
         </div>

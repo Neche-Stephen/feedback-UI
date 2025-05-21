@@ -1,4 +1,4 @@
-
+/* 
 @media (max-height: 790px) {
   .hero_logos {
     display: none;
@@ -18,4 +18,8 @@
     .hero_logos {
         display: none;
       }
-  }
+  } */
+
+  .hero{
+    /* min-height: 100vh; */
+}

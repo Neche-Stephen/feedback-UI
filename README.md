@@ -41,7 +41,7 @@ This application provides a feedback collection system for browser extensions. U
 To test the form locally, you need to access it with proper URL parameters:
 
 ```
-http://localhost:5173/?id=<extension_id>&name=<extension_name>
+http://localhost:5173/form/?id=<extension_id>&name=<extension_name>
 ```
 
 For example:

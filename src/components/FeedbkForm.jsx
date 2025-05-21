@@ -95,7 +95,7 @@ export default function FeedbkForm({ extensionData, onSubmit }) {
   return (
     <div className="min-h-screen bg-[#E3EFFC]">
       {/* Navigation Bar */}
-      <nav className="bg-slate-900 text-white p-4 mb-4 rounded-b-lg md:rounded-b-[40px]">
+      <nav className="bg-slate-900 text-white py-7 px-4 mb-4 rounded-b-lg md:rounded-b-[40px]">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center space-x-2">
@@ -273,10 +273,10 @@ export default function FeedbkForm({ extensionData, onSubmit }) {
 
       {/* Feedback Form */}
       <div className="container md:max-w-[83.22%] mx-auto py-8 bg-white px-[26px]">
-        <div className="lg:max-w-[66.44%] mx-auto bg-white rounded-lg overflow-hidden">
+        <div className="lg:max-w-[846px] mx-auto bg-white rounded-lg overflow-hidden">
           {/* Blue Header Section */}
-          <div className="bg-[#1671D9] text-white p-8 text-center rounded-t-[23px]">
-            <h1 className="text-[36px] font-medium mb-5">
+          <div className="bg-[#1671D9] text-white pt-20 pb-8 px-10  text-center rounded-t-[23px]">
+            <h1 className="text-[48px] font-medium mb-5 leading-[100%] tracking-[-4%]">
               Help us fix what's not working
             </h1>
             <p className="text-[18px] font-normal">
@@ -313,7 +313,7 @@ export default function FeedbkForm({ extensionData, onSubmit }) {
 
             {/* Issues Selection */}
             <div className="mb-[45px]">
-              <h2 className="text-xl font-medium mb-4">
+              <h2 className="text-[20px] tracking-[-2%] font-medium mb-4 text-[#1D2739]">
                 What specific issues are you experiencing? <span className="text-red-500">*</span>
               </h2>
               <div className="flex flex-wrap gap-3">
@@ -321,10 +321,10 @@ export default function FeedbkForm({ extensionData, onSubmit }) {
                   <button
                     key={issue}
                     type="button"
-                    className={`py-2 px-4 rounded-md text-sm transition-colors duration-200 ${
+                    className={`py-2 px-4 rounded-md text-sm font-medium transition-colors duration-200 ${
                       formData.issues.includes(issue)
                         ? 'bg-[#1671D9] text-white'
-                        : 'bg-[#F0F2F5] text-gray-800 hover:bg-gray-200'
+                        : 'bg-[#F0F2F5] text-[#344054] hover:bg-gray-200'
                     }`}
                     onClick={() => handleIssueSelect(issue)}
                   >
@@ -341,7 +341,7 @@ export default function FeedbkForm({ extensionData, onSubmit }) {
 
             {/* Additional Details */}
             <div className="mb-[45px]">
-              <h2 className="text-xl font-medium mb-4">
+              <h2 className="text-[20px] tracking-[-2%] font-medium mb-4 text-[#1D2739]">
                 Any additional details that might help us? (Optional)
               </h2>
               <textarea

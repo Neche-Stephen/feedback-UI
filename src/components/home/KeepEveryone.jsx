@@ -2,33 +2,31 @@ import React from 'react';
 
 export default function KeepEveryone() {
   return (
-    <div className="w-full bg-blue-900 py-16 md:py-24">
-      <div className="max-w-4xl mx-auto px-4 text-center">
+    <div className="w-full bg-[#012657] pt-16 md:pt-20 px-12 xl:px-0 text-center">
         {/* Heading and text section */}
-        <h1 className="text-4xl md:text-5xl font-semibold text-white mb-6">
+        <h1 className="text-4xl md:text-[63px] leading-[73px] tracking-[-2.5px] font-semibold text-center text-white mb-3">
           Keep every one in the loop
         </h1>
         
-        <p className="text-lg md:text-xl text-white opacity-90 mb-10">
+        <p className="max-w-[485px] mx-auto text-lg md:text-xl text-white mb-3 leading-[35px] font-normal">
           All good things starts with a homepage. Get 
           inspired without breaking your wallet.
         </p>
         
         {/* CTA Button */}
-        <div className="mb-12">
-          <button className="bg-white text-gray-900 rounded-full py-3 px-8 font-medium text-lg hover:bg-gray-100 transition-colors">
+        <div className="mb-8">
+          <button className="bg-white text-[#282828] rounded-[39px] py-3 px-7 font-medium text-[16px] leading-[28px] tracking-[-0.2px] hover:bg-gray-100 transition-colors">
             Start for free
           </button>
         </div>
         
         {/* Dashboard Image Placeholder */}
-        <div className="w-full max-w-5xl mx-auto">
+        <div className="w-full max-w-[1014px] mx-auto">
           <img 
             src="./assets/home/feedback/dashboard.png"
             alt="Dashboard preview" 
             className="w-full h-auto"
           />
-        </div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ import Partners from '../components/home/Partners';
 
 export default function Home() {
   return (
-    <div>
+    <div className='max-w-[1440px] mx-auto'>
       <Hero />
       <Partners />
       <About />

@@ -14,8 +14,8 @@ export default function Support() {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-16 sm:py-24">
-      <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16">
+    <div className="max-w-[1280px] mx-auto px-4 xl:px-0 pt-20 mb-[119px]">
+      <h2 className="text-3xl md:text-[54px] leading-[63px] tracking-[-1.5px] font-semibold text-center text-[#282828] mb-14">
         Loved By Developers At
       </h2>
       
